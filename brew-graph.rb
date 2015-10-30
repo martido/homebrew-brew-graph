@@ -2,8 +2,8 @@ require "formula"
 
 class BrewGraph < Formula
   homepage "https://github.com/martido/brew-graph"
-  url "https://github.com/martido/brew-graph/releases/download/v2.0/brew-graph-2.0.zip"
-  sha1 "69f6dbf116da1595424cf8f88daa8debaa9e81b1"
+  url "https://github.com/martido/brew-graph/releases/download/v2.0.1/brew-graph-2.0.1.zip"
+  sha1 "5a63e3c728cbca13da217e65827ac414c4778872"
 
   def install
     bin.install "brew-graph.rb"
